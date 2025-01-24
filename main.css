@@ -230,10 +230,10 @@
 }
 .info-text {
   color: #ffffff;
-  font-family: Livvic, sans-serif;
-  font-size: 15px;
+  font-family: Livvic , sans-serif;
+  font-size: 14px;
   font-weight: 600;
-  line-height: 25px;
+  line-height: 20px;
   text-align: center;
   margin-bottom: 24px;
 }
@@ -245,7 +245,7 @@
 .box-2 {
   display: flex;
   justify-content: center;
-  gap: 5px;
+  gap: 16px;
 }
 
 @media (max-width: 883px) {
@@ -253,7 +253,7 @@
     padding-top: 50px;
     padding-bottom: 50px;
   }
-  .info-container{
+  .info-container {
     padding-left: 20px;
     padding-right: 20px;
   }
@@ -287,8 +287,8 @@
     text-align: center;
   }
   .info-col-title {
-    color: #79C8C7;
-    font-family: Livvic , sans-serif;
+    color: #79c8c7;
+    font-family: Livvic, sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 28px;
