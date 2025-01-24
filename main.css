@@ -156,6 +156,8 @@
   max-width: 1110px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .info-title {
   color: #ffffff;
@@ -198,7 +200,6 @@
   margin-left: auto;
   margin-right: auto;
   max-width: 96px;
-  cursor: pointer;
 }
 .info-col-link {
   color: #79c8c7;
@@ -229,7 +230,7 @@
 }
 .info-text {
   color: #ffffff;
-  font-family: Livvic , sans-serif;
+  font-family: Livvic, sans-serif;
   font-size: 15px;
   font-weight: 600;
   line-height: 25px;
@@ -241,11 +242,57 @@
   justify-content: center;
   cursor: pointer;
 }
-.box-2{
+.box-2 {
   display: flex;
   justify-content: center;
   gap: 5px;
 }
 
-@media ()
+@media (max-width: 883px) {
+  .info {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .info-container{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .info-fow {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .info-col-link {
+    color: #79c8c7;
+    font-family: Livvic, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+  }
+  .info-col-text {
+    color: #ffffff;
+    font-family: Livvic, sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: center;
+  }
+  .info-text {
+    color: #ffffff;
+    font-family: Livvic, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+    text-align: center;
+  }
+  .info-col-title {
+    color: #79C8C7;
+    font-family: Livvic , sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+  }
+}
 /*info-end*/
